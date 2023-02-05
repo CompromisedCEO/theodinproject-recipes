@@ -1,3 +1,27 @@
-
+* {
+    box-sizing: border-box;
+    font-size: 16px;}
+html {
+    display: flex; flex-direction: column; align-items: center;
+    font-family: 'Courier New', Courier, monospace;}
+body {
+    width: 1000px; height: auto;
+    display: flex; flex-direction: column; align-items: center;
+    margin: 0;}
+h1 {
+    font-size: 2rem;}
+h2 {
+    font-size: 1.50rem;}
+h3 {
+    font-size: 1.25rem}
 ol {
     list-style-type: none;}
+.buy-and-do {
+    display: flex; flex-direction: row; flex-wrap: nowrap;}
+.buy {
+    width: 30%; height: auto;}
+.do {
+    width: 70%; height: auto;
+    margin: 0 0 0 2rem;}
+footer {
+    margin: 0 0 1rem 0;}
